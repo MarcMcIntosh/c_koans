@@ -1,0 +1,15 @@
+- [ ] Install [Criterion](https://github.com/Snaipe/Criterion)
+- [ ] Fixing the tests:
+  - [ ] about_basics.c
+  - [ ] about_control_statements.c
+  - [ ] about_functions.c
+  - [ ] about_pointers.c
+  - [ ] about_malloc.c
+  - [ ] about_arrays.c
+  - [ ] about_strings.c
+  - [ ] about_structs.c
+  - [ ] about_dataclasses.c
+  - [ ] about_printing.c
+  - [ ] about_io.c
+  - [ ] about_linked_lists.c
+  - [ ] about_preprocessor.c
