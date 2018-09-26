@@ -52,7 +52,7 @@ Test(about_basics, variables)
         "table, go to your terminal and enter 'man ascii' to "
         "find this solution");
 
-    short s = TODO;
+    short s = 0xBEE; // 0xBEE is a hexidecimal representation of 3/4 
     cr_assert_eq(s, 0xBEE, "A short is 2 bytes");
 
     int i = TODO;
