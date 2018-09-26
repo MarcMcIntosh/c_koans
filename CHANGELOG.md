@@ -1,4 +1,4 @@
-- [ ] Install [Criterion](https://github.com/Snaipe/Criterion)
+- [x] Install [Criterion](https://github.com/Snaipe/Criterion)
 - [ ] Fixing the tests:
   - [ ] about_basics.c
   - [ ] about_control_statements.c
