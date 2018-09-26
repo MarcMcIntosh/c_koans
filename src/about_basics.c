@@ -29,7 +29,7 @@ Test(about_basics, intro)
     cr_assert(false == 0,
         "In C there is no false, there is only zero. false is in fact: %d",
         false);
-    cr_assert(true == 0,
+    cr_assert(true == 1,
         "In C there is no true, there is only not zero. true is in fact: %d",
         true);
     /*
