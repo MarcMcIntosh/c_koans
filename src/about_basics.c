@@ -36,8 +36,8 @@ Test(about_basics, intro)
         Criterion has more descriptive tests that can evaluate the same thing
         eq is short for equals
     */
-    cr_assert_eq(false, 1, "Nothing is not something");
-    cr_assert_eq(true, 0, "Something is not nothing");
+    cr_assert_eq(false, 0, "Nothing is not something");
+    cr_assert_eq(true, 1, "Something is not nothing");
 }
 
 Test(about_basics, variables)
@@ -46,7 +46,7 @@ Test(about_basics, variables)
         If you've had some experience with Java then C won't seem too foreign in
         terms of syntax
     */
-    char c = TODO;
+    char c = 0x43;
     cr_assert_eq(c, 'C',
         "All characters in C are interpreted from the ASCII "
         "table, go to your terminal and enter 'man ascii' to "
