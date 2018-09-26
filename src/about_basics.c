@@ -62,7 +62,7 @@ Test(about_basics, variables)
     cr_assert_eq(l, 0xDEBA7AB1E,
         "A long is a larger integer type than int (supports unsigned).");
 
-    unsigned int ui = INT_MAX;
+    unsigned int ui = UINT_MAX;
     /*
         This unsigned int should exceed the maximum capacity of an INT (hint
         INT_MAX is declared in limits.h)
