@@ -14,7 +14,7 @@ Test(about_basics, intro)
         Tests are built on assertions, simple evaluations of truth in order to
         assess the correctness of code
     */
-    cr_assert(false,
+    cr_assert(true,
         "This should be true, assertion - a confident and forceful "
         "statement of fact");
     /*
