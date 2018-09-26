@@ -52,10 +52,10 @@ Test(about_basics, variables)
         "table, go to your terminal and enter 'man ascii' to "
         "find this solution");
 
-    short s = 0xBEE; // 0xBEE is a hexidecimal representation of 3/4 
+    short s = 0xBE; // 0xBEE is a hexidecimal representation of 3/4 trailing E is usles
     cr_assert_eq(s, 0xBEE, "A short is 2 bytes");
 
-    int i = TODO;
+    int i = 0xBADBEE;
     cr_assert_eq(i, 0xBADBEEF, "A int is 4 bytes");
 
     long l = TODO;
