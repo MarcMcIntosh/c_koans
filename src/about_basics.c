@@ -78,15 +78,15 @@ Test(about_basics, variables)
         "A number literal starting with 0x will be interpreted as hexadecimal");
     cr_expect_eq(ll, 0b11111111,
         "A number literal starting with 0b will be interpreted as binary");
-    cr_assert_eq(ll, 0777,
+    cr_assert_eq(ll, 0377,
         "A number literal starting with 0 will be interpreted as octal");
 
     double d = 3.50;
-    cr_assert_float_eq(d, (7 / 2), 0.000001,
+    cr_assert_float_eq(d, (7.0 / 2.0), 0.0000001,
         "Just like Java, C does integer division for 7/2");
 
     double d2 = 350e-2;
-    cr_assert_float_eq(d2, 3 + (1 / 2), 0.000001,
+    cr_assert_float_eq(d2, 3.0 + (1.0 / 2.0), 0.000001,
         "Addition also effects whether a number literal is "
         "interpreted as IEEE or 2's Comp");
 }
