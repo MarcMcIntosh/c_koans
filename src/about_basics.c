@@ -52,17 +52,17 @@ Test(about_basics, variables)
         "table, go to your terminal and enter 'man ascii' to "
         "find this solution");
 
-    short s = 0xBE; // 0xBEE is a hexidecimal representation of 3/4 trailing E is usles
+    short s = 3054; // 0xBEE is a hexidecimal representation of 3/4 trailing E is usles
     cr_assert_eq(s, 0xBEE, "A short is 2 bytes");
 
-    int i = 0xBADBEE;
+    int i = 195935983;
     cr_assert_eq(i, 0xBADBEEF, "A int is 4 bytes");
 
-    long l = TODO;
+    long l = 59788208926;
     cr_assert_eq(l, 0xDEBA7AB1E,
         "A long is a larger integer type than int (supports unsigned).");
 
-    unsigned int ui = TODO;
+    unsigned int ui = INT_MAX;
     /*
         This unsigned int should exceed the maximum capacity of an INT (hint
         INT_MAX is declared in limits.h)
@@ -72,7 +72,7 @@ Test(about_basics, variables)
         "primitive data type to increase the upper "
         "limit by only storing positive values");
 
-    long long ll = TODO;
+    long long ll = 255;
 
     cr_expect_eq(ll, 0xFF,
         "A number literal starting with 0x will be interpreted as hexadecimal");
