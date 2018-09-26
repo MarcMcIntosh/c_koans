@@ -26,7 +26,7 @@ Test(about_basics, intro)
         interpret
         the input as an int
     */
-    cr_assert(false == 1,
+    cr_assert(false == 0,
         "In C there is no false, there is only zero. false is in fact: %d",
         false);
     cr_assert(true == 0,
