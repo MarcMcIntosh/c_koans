@@ -2,7 +2,7 @@
 - [ ] Fixing the tests:
   - [x] about_basics.c
   - [x] about_control_statements.c
-  - [ ] about_functions.c
+  - [x] about_functions.c
   - [ ] about_pointers.c
   - [ ] about_malloc.c
   - [ ] about_arrays.c
